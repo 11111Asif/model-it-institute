@@ -7,6 +7,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
 
     const links = <>
+        <li className="hover:text-indigo-600 text-lg font-semibold"><NavLink to="/">Home</NavLink></li>
         <li className="hover:text-indigo-600 text-lg font-semibold"><NavLink to="/courses">Courses</NavLink></li>
         <li className="hover:text-indigo-600 text-lg  font-semibold"><NavLink to="/instructors">Instructors</NavLink></li>
         <li className="hover:text-indigo-600 text-lg  font-semibold"><NavLink to="/testimonials">Testimonials</NavLink></li>
